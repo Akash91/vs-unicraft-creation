@@ -5,7 +5,7 @@ import react from '@vitejs/plugin-react'
 
 // Option A: project page (replace <REPO_NAME>)
 export default defineConfig({
-  base: process.env.GITHUB_PAGES ? '/<REPO_NAME>/' : '/',
+  base: 'vs-unicraft-creation',
   plugins: [
     // The React and Tailwind plugins are both required for Make, even if
     // Tailwind is not being actively used – do not remove them
