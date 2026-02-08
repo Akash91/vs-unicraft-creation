@@ -6,8 +6,11 @@ import { TermsAndConditions } from './components/TermsAndConditions';
 import { WebsitePolicy } from './components/WebsitePolicy';
 
 export default function App() {
+  // Set basename for GitHub Pages deployment
+  const basename = import.meta.env.BASE_URL || '/';
+  
   return (
-    <Router>
+    <Router basename={basename}>
       <div className="min-h-screen flex flex-col">
         <Header />
         <main className="flex-1">
