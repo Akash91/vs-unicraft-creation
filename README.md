@@ -2,26 +2,13 @@
 
 A complete e-commerce website for VS Unicraft Creation, specializing in school supplies including uniforms, trophies, and printing services. Built with React, TypeScript, and Tailwind CSS.
 
-## 🏫 About
-
-VS Unicraft Creation provides quality school supplies with a focus on:
-- **Uniforms**: Kendriya Vidyalaya style uniforms including shirts, skirts, pants, salwar kameez, blazers, sweaters, track suits, ties, belts, and socks
-- **Trophies**: Wooden, metal, and acrylic trophies for academic and sports achievements
-- **Printing**: ID cards, school diaries, and custom notebooks
-
-**Tagline**: *Uniforms • Trophies • Printing Solutions*  
-**Positioning**: *A Complete School Supplies*
 
 ## 🚀 Features
 
-- ✨ Responsive design for desktop, tablet, and mobile
-- 🎨 Royal blue (#0A1B7F) and gold (#FFD700) branding
-- 📱 Product catalog with filtering and search
-- 🏆 26+ products across 3 main categories
-- 🔍 Advanced filtering by category, subcategory, price range
-- 📊 Sort by name and price
-- 💳 Product details with SKU and pricing in Indian Rupees (₹)
-- 📜 Terms & Conditions and Website Policy pages
+- React 18 + TypeScript
+- Vite for dev and build
+- Tailwind CSS
+- React Router
 
 ## 🛠️ Technologies
 
@@ -32,17 +19,20 @@ VS Unicraft Creation provides quality school supplies with a focus on:
 - **shadcn/ui** components
 - **Lucide React** for icons
 
-## 📦 Installation
+## 📦 Quickstart
 
 ```bash
 # Install dependencies
-pnpm install
+npm install
 
 # Run development server
-pnpm dev
+npm run dev
 
 # Build for production
-pnpm build
+npm run build
+
+# Preview the production build locally
+npm run preview
 ```
 
 ## 🌐 GitHub Pages Deployment
@@ -95,51 +85,11 @@ To use a custom domain:
 3. Update your DNS settings to point to GitHub Pages
 4. Update the `base` in `vite.config.ts` to `'/'`
 
-## 📁 Project Structure
-
-```
-vs-unicraft-creation/
-├── .github/
-│   └── workflows/
-│       └── deploy.yml          # GitHub Actions workflow
-├── src/
-│   ├── app/
-│   │   ├── components/
-│   │   │   ├── Header.tsx       # Navigation header
-│   │   │   ├── LandingPage.tsx  # Home page
-│   │   │   ├── Logo.tsx         # VS Unicraft logo
-│   │   │   ├── ProductList.tsx  # Products page
-│   │   │   ├── TermsAndConditions.tsx
-│   │   │   ├── WebsitePolicy.tsx
-│   │   │   └── ui/              # shadcn/ui components
-│   │   ├── data/
-│   │   │   └── products.ts      # Product catalog
-│   │   └── App.tsx              # Main app component
-│   └── styles/
-│       ├── index.css
-│       ├── tailwind.css
-│       └── theme.css            # Brand colors
-├── vite.config.ts               # Vite + GitHub Pages config
-├── package.json
-└── README.md
-```
-
 ## 🎨 Branding
 
 - **Primary Color**: Royal Blue `#0A1B7F`
 - **Accent Color**: Gold `#FFD700`
 - **Logo**: Custom VS Unicraft Creation logo with golden swoosh
-
-## 📞 Contact Information
-
-**VS Unicraft Creation**  
-📍 Flat No. 1403, 23 Tower, Gulmohar Garden, Raj Nagar Extension, Ghaziabad, Uttar Pradesh, India  
-📱 Phone: +91-XXXXXXXXXX  
-✉️ Email: info@example.com
-
-## 📄 License
-
-Copyright © 2024 VS Unicraft Creation. All rights reserved.
 
 ## 🤝 Contributing
 

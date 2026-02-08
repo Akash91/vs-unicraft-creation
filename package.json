@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.1",
   "type": "module",
+  "homepage": "https://akash91.github.io/vs-unicraft-creation",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
