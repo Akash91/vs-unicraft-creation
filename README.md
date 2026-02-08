@@ -133,9 +133,9 @@ vs-unicraft-creation/
 ## 📞 Contact Information
 
 **VS Unicraft Creation**  
-📍 Ghaziabad, Uttar Pradesh, India  
-📱 Phone: 7042121  
-✉️ Email: contact@vsunicraftcreation.com
+📍 Flat No. 1403, 23 Tower, Gulmohar Garden, Raj Nagar Extension, Ghaziabad, Uttar Pradesh, India  
+📱 Phone: +91-XXXXXXXXXX  
+✉️ Email: info@example.com
 
 ## 📄 License
 

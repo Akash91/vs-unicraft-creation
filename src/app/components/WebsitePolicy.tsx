@@ -158,7 +158,8 @@ export function WebsitePolicy() {
                 practices, please contact us at:
               </p>
               <div className="mt-3 text-muted-foreground">
-                <p>Phone: 7042121</p>
+                <p>Phone: +91-XXXXXXXXXX</p>
+                <p>Email: info@example.com</p>
                 <p>Address: Flat No. 1403, 23 Tower, Gulmohar Garden, Raj Nagar Extension, Ghaziabad</p>
               </div>
             </section>

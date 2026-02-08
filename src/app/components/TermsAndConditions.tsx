@@ -108,7 +108,7 @@ export function TermsAndConditions() {
               <h2 className="text-2xl mb-4">10. Contact Information</h2>
               <p className="text-muted-foreground">
                 If you have any questions about these Terms and Conditions, please contact us at
-                7042121 or visit us at Flat No. 1403, 23 Tower, Gulmohar Garden, Raj Nagar Extension, Ghaziabad.
+                +91-XXXXXXXXXX or email us at info@example.com. You can also visit us at Flat No. 1403, 23 Tower, Gulmohar Garden, Raj Nagar Extension, Ghaziabad.
               </p>
             </section>
 

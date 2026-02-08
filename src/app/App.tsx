@@ -30,7 +30,7 @@ export default function App() {
               
               {/* Contact Info */}
               <div className="text-white text-sm space-y-1">
-                <p>📞 7042121</p>
+                <p>📞 +91-XXXXXXXXXX</p>
                 <p>📍 Flat No. 1403, 23 Tower, Gulmohar Garden,</p>
                 <p>Raj Nagar Extension, Ghaziabad</p>
               </div>
