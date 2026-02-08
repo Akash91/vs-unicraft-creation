@@ -3,7 +3,9 @@ import path from 'path'
 import tailwindcss from '@tailwindcss/vite'
 import react from '@vitejs/plugin-react'
 
+// Option A: project page (replace <REPO_NAME>)
 export default defineConfig({
+  base: process.env.GITHUB_PAGES ? '/<REPO_NAME>/' : '/',
   plugins: [
     // The React and Tailwind plugins are both required for Make, even if
     // Tailwind is not being actively used – do not remove them
@@ -17,9 +19,14 @@ export default defineConfig({
     },
   },
   // GitHub Pages configuration
-  base: process.env.GITHUB_PAGES ? '/vs-unicraft-creation/' : '/',
   build: {
     outDir: 'dist',
     assetsDir: 'assets',
   },
 })
+
+// Option B: use relative paths (works for many setups)
+// export default defineConfig({
+//   base: './',
+//   plugins: [react()],
+// })
